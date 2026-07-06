@@ -1,0 +1,137 @@
+:root{
+    --ocolor: rgb(198,147,9);
+    --lbcolor: rgb(65,164,151);
+    --dbcolor: rgb(43,47,58);
+    --wcolor: rgb(243, 243, 243);
+    --shcolor: rgb(0,0,0);
+    --bcolor: rgb(204, 204, 204);
+}
+i{
+    color: var(--ocolor);
+}
+#viewbooks
+{
+    position: relative;
+    display: flex;
+}
+#viewbooks .bookgrid
+{
+    display: grid;
+    /* column-count: 5px;*/
+    width: 80%;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 10px;
+    
+}
+img{
+    width: 100px;
+   height: 120px;
+}
+/* #viewbooks .bookgrid .firstbook img
+{
+   width: 60px;
+   height: 70px;
+} */
+#viewbooks .bookgrid .firstbook
+{
+    margin-left: 10px;
+    width: 30%;
+}
+#viewbooks .bookgrid .firstbook i #color
+{
+    color: var(--ocolor);
+    cursor: pointer;
+    padding-right: 5px;
+    margin-left: 10px;
+    display: inline-block;
+}
+#editbook
+{
+    position: absolute;
+    top: 8%;
+    left:35%;
+    background-color: var(--lbcolor);
+    color: var(--wcolor);
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    display:inline-block;
+    /* cursor: pointer; */
+    border-radius: 50px;
+    width: 40%;
+    height: 300px;
+    /* display: none; */
+}
+#editbook form table{
+   padding-left: 30px;
+}
+#editbook form table tr td p{
+    text-align: center;
+    margin: 0px;
+}
+#editbook form table tr td input[type='button']
+{
+    width: 100%;
+    padding: 6px 6px;
+    margin: 5px 0;
+    /* display:inline-flex; */
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+#editbook form table tr td input[type='text']
+{
+    width: 80%;
+    padding: 6px 6px;
+    margin: 5px 0;
+    /* display:inline-flex; */
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+#editbook form table tr td input[type='submit'],#editbook form table tr td input[type='reset']
+{
+    width: 40%;
+    padding: 6px 6px;
+    margin: 5px 0;
+    /* display:inline-flex; */
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+#deletebook
+{
+    top: 6%;
+    left: 40%;
+    position: absolute;
+    width: 20%;
+    background-color: var(--lbcolor);
+    color: var(--wcolor);
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    display:inline-block;
+    /* cursor: pointer; */
+    border-radius: 50px;
+    height: 100px;
+    /* display: none; */
+}
+#deletebook p{
+    text-align: center;
+    font-size: 18px;
+}
+#deletebook form p input[type='submit'] #deletebook form p input[type='button']
+{
+    width: 40%;
+    padding: 6px 6px;
+    /* display:inline-flex; */
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}

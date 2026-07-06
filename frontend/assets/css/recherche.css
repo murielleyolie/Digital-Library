@@ -1,0 +1,37 @@
+:root{
+    --ocolor: rgb(198,147,9);
+    --lbcolor: rgb(65,164,151);
+    --dbcolor: rgb(43,47,58);
+    --wcolor: rgb(243, 243, 243);
+    --shcolor: rgb(0,0,0);
+    --bcolor: rgb(204, 204, 204);
+}
+#recherche
+{
+    text-align: center; 
+    margin-top: 100px;
+    /* margin-bottom: 0px; */
+    /* border: 2px solid black; */
+    height: 280px;
+}
+#recherche form select
+{
+    margin-top: 10px;
+} 
+#recherche form input[type = 'text']
+{
+    margin-top: 20px;
+} 
+#recherche form input[type = 'submit']
+{
+    background-color: var(--dbcolor);
+    color: var(--wcolor);
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    display:inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    /* width: 100%; */
+} 

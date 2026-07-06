@@ -1,0 +1,66 @@
+:root{
+    --ocolor: rgb(198,147,9);
+    --lbcolor: rgb(65,164,151);
+    --dbcolor: rgb(43,47,58);
+    --wcolor: rgb(243, 243, 243);
+    --shcolor: rgb(0,0,0);
+    --bcolor: rgb(204, 204, 204);
+}
+#adduser{
+    display: flex;
+}
+#adduser #sideadduser .sideadduserflex
+{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10%;
+    align-items: center;
+}
+#adduser #sideadduser .sideadduserflex h1
+{
+    color: var(--lbcolor);
+    border-bottom: 4px double var(--lbcolor);
+    /* border: 1px solid black; */
+}
+#adduser #sideadduser form
+{
+    margin: 40px;
+}
+#adduser #sideadduser form label{
+    display: block;
+    padding-bottom: 10px;
+    color: var(--lbcolor);
+}
+#adduser #sideadduser form i{
+    color: var(--ocolor);
+    padding-right: 10px;
+}
+#adduser #sideadduser form input[type=text], #adduser #sideadduser form input[type=password]{
+    border: none;
+}
+#adduser #sideadduser form .textfield
+{
+    width: 80%;
+    padding: 20px 20px;
+    margin: 12px 0;
+    margin-left: 8%;
+    display:inline-block;
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+#adduser #sideadduser form input[type=submit] 
+{
+    background-color: var(--dbcolor);
+    color: var(--wcolor);
+    padding: 14px 20px;
+    margin: 12px 0;
+    margin-left: 23%;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    display:inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 50%;
+}

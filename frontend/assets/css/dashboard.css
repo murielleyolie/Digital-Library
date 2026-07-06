@@ -1,0 +1,53 @@
+:root{
+    --ocolor: rgb(198,147,9);
+    --lbcolor: rgb(65,164,151);
+    --dbcolor: rgb(43,47,58);
+    --wcolor: rgb(243, 243, 243);
+    --shcolor: rgb(0,0,0);
+    --bcolor: rgb(204, 204, 204);
+}
+#adminfirst
+{
+    display: flex;
+}
+#dashboard
+{
+    /* background-color: blue; */
+    width: 100%;
+    /* height: 700px; */
+    display: flex;
+    gap: 50px;
+}
+#dashboard .first {
+    background-color: var(--dbcolor);
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 100px;
+}
+
+#dashboard .first i{
+    color: var(--ocolor);
+    cursor: pointer;
+    font-size: 60px;
+    display: inline-block;
+    border: 1px solid blue;
+    
+}
+/* .fas fa-chart-bar{
+    height: 50px;
+    width: 50px;
+} */
+#dashboard .first .number
+{
+    /* text-align: right; */
+    border: 1px solid black;
+    padding-right: 15px;
+    font-size: 40px;
+    color: var(--ocolor);
+}

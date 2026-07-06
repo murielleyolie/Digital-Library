@@ -1,0 +1,88 @@
+:root{
+    --ocolor: rgb(198,147,9);
+    --lbcolor: rgb(65,164,151);
+    --dbcolor: rgb(43,47,58);
+    --wcolor: rgb(243, 243, 243);
+    --shcolor: rgb(0,0,0);
+    --bcolor: rgb(204, 204, 204);
+} 
+#home
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 30px;
+    /* justify-content: space-between; */
+}
+#home .one{
+    width: 60%;
+}
+#home .one a{
+    text-decoration: none;
+    color: var(--ocolor);
+   
+}
+#home .one .titre{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 10 10px 5px  black;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+#home .one table{
+    width: 100%;
+    border-collapse: collapse;
+  
+}
+#home .one table tr:hover{
+   background: #0000004f;
+   cursor: pointer;
+}
+#home  .one table td{
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+}
+#home .one table .paire
+{
+ background-color: blueviolet;
+}
+#home .one table .none{
+    background-color: transparent;
+}
+#home .one table img{
+    width: 100px;
+}
+.tdTitre{
+    /* text-align: center; */
+}
+#home .two{
+    width: 40%;
+}
+#home .two .description{
+  
+    
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 30px;
+}
+#home .two .description img{
+    width: 200px;
+}
+#home .two .millieu input[type=submit]
+{
+    border-radius: 20px;
+    background-color: var(--lbcolor);
+    color: var(--wcolor);
+    padding: 6px 6px;
+    border: none;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    display:inline-block;
+    cursor: pointer;
+ 
+}
+#home .two .millieu{
+    /* border:1px solid black; */
+    text-align: center;
+}

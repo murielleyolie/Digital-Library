@@ -1,0 +1,72 @@
+:root{
+    --ocolor: rgb(198,147,9);
+    --lbcolor: rgb(65,164,151);
+    --dbcolor: rgb(43,47,58);
+    --wcolor: rgb(243, 243, 243);
+    --shcolor: rgb(0,0,0);
+    --bcolor: rgb(204, 204, 204);
+}
+#navPrincipal .navbar{
+    /* border: 1px solid black; */
+    /* border-radius: 20px; */
+    background-color: var(--dbcolor);
+    height: 100px;
+    display: flex;
+    /* margin-bottom: 30px; */
+    width: 100%;
+}
+#navPrincipal .navbar .logoPrincipal img
+{
+    width: 120px;
+    height: 100px;
+}
+#navPrincipal .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navPrincipal .navbar .navbar-items{
+    /* display: inline-block;
+    gap: 50%; */
+}
+#navPrincipal .navbar .navbar-items .active
+{
+    color: var(--ocolor);
+}
+#navPrincipal .navbar .navbar-items li 
+{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+    /* align-items: baseline; */
+}
+#navPrincipal .navbar .navbar-items li a{
+    color: var(--bcolor);
+    text-decoration: none;
+    &:hover
+    {
+        color: var(--ocolor);
+    }
+}
+#navPrincipal .navbar .navbar-items li .active
+{
+    color: var(--ocolor);
+}
+#navPrincipal .navbar .navbar-items .secondDisplay{
+    display: flex;
+}
+#navPrincipal .navbar .navbar-items li a i
+{
+    color: var(--ocolor);
+    cursor: pointer;
+    padding-right: 5px;
+    display: inline-block;
+}
+#navPrincipal .navbar .navbar-items .secondDisplay li a .hide
+{
+    display: none;
+}
+#navPrincipal .navbar .navbar-items .secondDisplay li a .hidden 
+{
+    display: none;
+}

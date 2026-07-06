@@ -1,0 +1,78 @@
+:root{
+    --ocolor: rgb(198,147,9);
+    --lbcolor: rgb(65,164,151);
+    --dbcolor: rgb(43,47,58);
+    --wcolor: rgb(243, 243, 243);
+    --shcolor: rgb(0,0,0);
+    --bcolor: rgb(204, 204, 204);
+}
+#addbook
+{
+    display: flex;
+    /* width: 100%; */
+}
+#addbook #sideaddbook h1{
+    margin-left: 38%;
+    display: inline-block;
+    color: var(--lbcolor);
+    border-bottom: 1px groove var(--lbcolor);
+}
+#addbook #sideaddbook , #addbook #sideaddbook form,#addbook #sideaddbook form table
+{
+    width: 100%;
+    /* background-color: blue; */
+}
+#addbook #sideaddbook form table
+{
+    padding-left: 20px;
+}
+#addbook #sideaddbook form table tr td label
+{
+    color: var(--ocolor);
+}
+#addbook #sideaddbook form table tr td input[type='text']
+{
+    width: 70%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display:block;
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+#addbook #sideaddbook form table tr td:not(#addbook #sideaddbook form table tr .elementcenter)
+{
+    padding-left: 60px;
+    font-size: 20px;
+}
+#addbook #sideaddbook form table tr .elementcenter
+{
+    text-align: center;
+}
+#addbook #sideaddbook form table tr td input[type=button] 
+{
+    background-color: var(--dbcolor);
+    color: var(--lbcolor);
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    display:inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 80%;
+}
+#addbook #sideaddbook form table tr td input[type=submit],#addbook #sideaddbook form table tr td input[type=reset] 
+{
+    background-color: var(--dbcolor);
+    color: var(--lbcolor);
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    display:inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 40%;
+}

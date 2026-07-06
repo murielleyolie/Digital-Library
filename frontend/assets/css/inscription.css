@@ -1,0 +1,78 @@
+:root{
+    --ocolor: rgb(198,147,9);
+    --lbcolor: rgb(65,164,151);
+    --dbcolor: rgb(43,47,58);
+    --wcolor: rgb(243, 243, 243);
+    --shcolor: rgb(0,0,0);
+    --bcolor: rgb(204, 204, 204);
+}
+section{
+    display: flex;
+    width: 98%;
+    /* background-image: url(../../frontend/assets/images/bg1.jpg); */
+    height: 700px;
+    margin-left: 10px;
+}
+section .form{
+    /* border: 1px solid red; */
+    width: 60%;
+}
+section .form form{
+    width: 62%;
+    padding: 30px;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    border: 1px solid var(--wcolor);
+    background: var(--wcolor);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+    margin-left: 130px;
+    border-radius: 30px;
+    height: 80%;
+}
+section .form form label{
+    display: block;
+}
+section .form form .sideways
+{
+    display: flex;
+    gap: 20px;
+}
+section .form form input[type=text],section .form form input[type=password]{
+    border: none;
+}
+section .form form .textfield
+{
+    width: 100%;
+    padding: 20px 20px;
+    margin: 12px 0;
+    display:inline-block;
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+section .form input[type=submit] 
+{
+    background-color: var(--dbcolor);
+    color: var(--wcolor);
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    display:inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 100%;
+}
+section .photo{
+    width: 45%;
+    /* border: 1px solid black; */
+    /* background-image: url(../assets/images/sidepic.png) ; */
+    /* background-size: cover; */
+    /* height: 700px; */
+    /* background-attachment: fixed; */
+}
+section .photo img{
+    width: 550px;
+    height: 700px;
+}

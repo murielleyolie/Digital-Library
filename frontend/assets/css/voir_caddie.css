@@ -1,0 +1,67 @@
+:root{
+    --ocolor: rgb(198,147,9);
+    --lbcolor: rgb(65,164,151);
+    --dbcolor: rgb(43,47,58);
+    --wcolor: rgb(243, 243, 243);
+    --shcolor: rgb(0,0,0);
+    --bcolor: rgb(204, 204, 204);
+}
+ table{
+    overflow: scroll;
+    margin-left: 15%;
+    width: 70%;
+    height: 500px;
+    text-align: center;
+}
+ table tr td{
+    /* border-bottom: 2px solid var(--lbcolor); */
+    box-shadow: 0 0 20px 0 rgba(65,164,151,0.2), 0 5px 5px 0 rgba(65,164,151,0.24);
+}
+ table tr td i{
+    color: var(--ocolor);
+}
+img{
+    width:100px;
+    height: 120px;
+}
+.titre
+{
+    text-align: center;
+    color: var(--lbcolor);
+    font-weight: bolder;
+    font-size: 25px;
+    /* border-bottom: 2px solid var(--lbcolor); */
+}
+i
+{
+    color: var(--ocolor);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* ali */
+    align-items: center;
+}
+form  input[type='text']
+{
+    width: 10%;
+    padding: 6px 6px;
+    margin: 5px 0;
+    /* display:inline-flex; */
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+ form  input[type='submit']
+{
+    width: 15%;
+    padding: 6px 6px;
+    margin: 5px 0;
+    /* display:inline-flex; */
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}

@@ -1,0 +1,81 @@
+:root{
+    --ocolor: rgb(198,147,9);
+    --lbcolor: rgb(65,164,151);
+    --dbcolor: rgb(43,47,58);
+    --wcolor: rgb(243, 243, 243);
+    --shcolor: rgb(0,0,0);
+    --bcolor: rgb(204, 204, 204);
+}
+body .body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    /* border: 2px solid black; */
+}
+form{
+    display: block;
+    width: 23%;
+    padding: 30px;
+    /* border: 2px solid black; */
+    border: 1px solid var(--wcolor);
+    background: var(--wcolor);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+    border-radius: 30px;
+    height: 85%;
+}
+form i{
+    color: var(--ocolor);
+    padding-right: 10px;
+}
+form a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+ 
+}
+form .logo{
+    padding-bottom: 40px;
+    display: block;
+    text-align: center;
+    /* border: 1px solid black; */
+   
+}
+form label{
+    display: block;
+    padding-bottom: 10px;
+}
+form input[type=text], form input[type=password]{
+    border: none;
+}
+form .textfield
+{
+    width: 100%;
+    padding: 20px 20px;
+    margin: 12px 0;
+    display:inline-block;
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+input[type=submit] 
+{
+    background-color: var(--dbcolor);
+    color: var(--wcolor);
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    display:inline-block;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 100%;
+}
+form .footer{
+    padding-top: 15px;
+    /* padding-bottom: 35px; */
+    /* border: 10px solid green; */
+    display: flex;
+    justify-content: space-between;
+}

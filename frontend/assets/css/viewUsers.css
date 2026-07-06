@@ -1,0 +1,130 @@
+:root{
+    --ocolor: rgb(198,147,9);
+    --lbcolor: rgb(65,164,151);
+    --dbcolor: rgb(43,47,58);
+    --wcolor: rgb(243, 243, 243);
+    --shcolor: rgb(0,0,0);
+    --bcolor: rgb(204, 204, 204);
+}
+#viewusers
+{
+    display: flex;
+    position: relative;
+}
+#viewusers #sideviewusers
+{
+    width: 80%;
+    /* background-color: aqua; */
+
+}
+#viewusers #sideviewusers h1{
+    color: var(--lbcolor);
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    border-bottom: 4px double var(--lbcolor);
+}
+#viewusers #sideviewusers table{
+    overflow: scroll;
+    margin-left: 15%;
+    width: 70%;
+    height: 500px;
+    text-align: center;
+}
+#viewusers #sideviewusers table tr td{
+    /* border-bottom: 2px solid var(--lbcolor); */
+    box-shadow: 0 0 20px 0 rgba(65,164,151,0.2), 0 5px 5px 0 rgba(65,164,151,0.24);
+}
+#viewusers #sideviewusers table tr td i{
+    color: var(--ocolor);
+}
+#deleteuser
+{
+    top: 10%;
+    left: 70%;
+    position: absolute;
+    width: 20%;
+    background-color: var(--lbcolor);
+    color: var(--wcolor);
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    display:inline-block;
+    /* cursor: pointer; */
+    border-radius: 50px;
+    height: 100px;
+    display: none;
+}
+#deleteuser p{
+    text-align: center;
+    font-size: 18px;
+}
+#deleteuser form p input[type='submit'], #deleteuser form p input[type='button']
+{
+    width: 40%;
+    padding: 6px 6px;
+    /* display:inline-flex; */
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+#edituser
+{
+    position: absolute;
+    top: 6%;
+    left:70%;
+    background-color: var(--lbcolor);
+    color: var(--wcolor);
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    display:inline-block;
+    /* cursor: pointer; */
+    border-radius: 50px;
+    width: 20%;
+    height: 170px;
+    display: none;
+}
+#edituser form table{
+   padding-left: 30px;
+}
+#edituser form table tr td p{
+    text-align: center;
+    margin: 0px;
+}
+#edituser form table tr td input[type='button']
+{
+    width: 60%;
+    padding: 6px 6px;
+    margin: 5px 0;
+    /* display:inline-flex; */
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+#edituser form table tr td input[type='text'],#edituser form table tr td input[type='password']
+{
+    width: 80%;
+    padding: 6px 6px;
+    margin: 5px 0;
+    /* display:inline-flex; */
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+#edituser form table tr td input[type='submit'],#edituser form table tr td input[type='reset']
+{
+    width: 40%;
+    padding: 6px 6px;
+    margin: 5px 0;
+    /* display:inline-flex; */
+    border: 1px solid var(--bcolor);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
